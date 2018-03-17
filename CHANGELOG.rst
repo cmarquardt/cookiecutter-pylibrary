@@ -6,6 +6,11 @@ Use cookiecutter's ``--checkout`` options to use a specific version.
 master
 ------
 
+* Added support for unittest. Based on work by Tal Einat in `#52 <https://github.com/ionelmc/cookiecutter-pylibrary/pull/52>`_.
+* Added dependency on pytest in `tests_require`. Contributed by Samuel Bishop in `#85 <https://github.com/ionelmc/cookiecutter-pylibrary/pull/85>`_
+  (locally in `#3 <https://github.com/cmarquardt/cookiecutter-pylibrary/pull/3>`_.
+* Added GPL licenses. Contributed by Leonard Lausen in `#89 <https://github.com/ionelmc/cookiecutter-pylibrary/pull/89>`_
+  (locally `#1 <https://github.com/cmarquardt/cookiecutter-pylibrary/pull/1>`_.
 * Simplified pytest configuration in some cases.
 * Fixed bumpversion configuration to not replace every matching string (like dependency pins).
 
