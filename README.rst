@@ -74,7 +74,7 @@ This template is more involved than the regular `cookiecutter-pypackage
 
 First generate your project::
 
-  cookiecutter gh:ionelmc/cookiecutter-pylibrary
+  cookiecutter gh:cmarquardt/cookiecutter-pylibrary
 
 You will be asked for these fields:
 
@@ -88,7 +88,7 @@ You will be asked for these fields:
     * - ``full_name``
       - .. code:: python
 
-            "Ionel Cristian Maries"
+            "Christian Marquardt"
       - Main author of this library or application (used in ``AUTHORS.rst`` and ``setup.py``).
 
         Can be set in your ``~/.cookiecutterrc`` config file.
@@ -96,7 +96,7 @@ You will be asked for these fields:
     * - ``email``
       - .. code:: python
 
-            "contact@ionelmc.ro"
+            "christian@marquardt.sc"
       - Contact email of the author (used in ``AUTHORS.rst`` and ``setup.py``).
 
         Can be set in your ``~/.cookiecutterrc`` config file.
@@ -104,7 +104,7 @@ You will be asked for these fields:
     * - ``website``
       - .. code:: python
 
-            "https://blog.ionelmc.ro"
+            "https://www.example.com"
       - Website of the author (used in ``AUTHORS.rst``).
 
         Can be set in your ``~/.cookiecutterrc`` config file.
@@ -112,7 +112,7 @@ You will be asked for these fields:
     * - ``github_username``
       - .. code:: python
 
-            "ionelmc"
+            "cmarquardt"
       - GitHub user name of this project (used for GitHub link).
 
         Can be set in your ``~/.cookiecutterrc`` config file.
@@ -335,7 +335,7 @@ project)::
   git init .
   git add .
   git commit -m "Initial skel."
-  git remote add origin git@github.com:ionelmc/python-nameless.git
+  git remote add origin git@github.com:cmarquardt/python-nameless.git
   git push -u origin master
 
 Then:
@@ -426,7 +426,7 @@ Note:
 Changelog
 ---------
 
-See `CHANGELOG.rst <https://github.com/ionelmc/cookiecutter-pylibrary/blob/master/CHANGELOG.rst>`_.
+See `CHANGELOG.rst <https://github.com/cmarquardt/cookiecutter-pylibrary/blob/master/CHANGELOG.rst>`_.
 
 Questions & answers
 -------------------
